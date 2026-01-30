@@ -1,3 +1,3 @@
 export default function NewsDetailLayout({ children, modal }: { children: React.ReactNode, modal: React.ReactNode }) {
-    return <>{modal}{children}</>;
+    return <div>{modal}{children}</div>;
 }

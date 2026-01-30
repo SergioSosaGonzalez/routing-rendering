@@ -1,12 +1,12 @@
-import { DUMMY_NEWS } from '@/dummy-news';
 import Link from 'next/link';
 
-interface News {
+export interface News {
     id: string;
     title: string;
     date: string;
     image: string;
     slug: string;
+    content?: string;
 }
 
 interface NewsListProps {
